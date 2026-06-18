@@ -18,7 +18,7 @@ ivme_degeri = st.slider("Anlık İvme Değeri (m/s²)", min_value=0.0, max_value
 DUSME_ESIGI = 25.0
 
 if ivme_degeri > DUSME_ESIGI:
-st.error("DIKKAT: ANI HAREKET VEYA DUSME ALGILANDI!")
+  st.error("DIKKAT: ANI HAREKET VEYA DUSME ALGILANDI!")
 
 # Acil durum sesli uyarısı
 try:
