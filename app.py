@@ -7,7 +7,7 @@ import uuid
 
 # --- WEB SAYFASI AYARLARI ---
 st.set_page_config(page_title="Akıllı Yaşlı Asistanı", page_icon="Asistan")
-st.title("Akıllı Yaşlı Asistanı")
+st.title("Akıllı Düşme Yardım Asistanı")
 
 # --- 1. İVMEÖLÇER VE DÜŞME ALGILAMA SİMÜLASYONU ---
 st.markdown("### Düşme Algılayıcı (İvmeölçer)")
